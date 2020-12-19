@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.neoxwizard" name="[COLOR teal]Neo[/COLOR] [COLOR purple]Wizard[/COLOR]" version="2.3.9" provider-name="[COLOR teal]Neo[/COLOR] [COLOR purple]Trece[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Neo Wizard</summary>
+    <description lang="en">Kodi Builds by Neo Trece.</description>
+    <summary lang="es_ES">Neo Wizard</summary>
+    <description lang="es_ES">Instalador de builds para Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.pruebas" name="Pruebas2 repo" version="0.0.1" provider-name="JL">
+	<extension point="xbmc.addon.repository" name="JL Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info>https://raw.githubusercontent.com/walterbishop2019/Pruebas2/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/walterbishop2019/Pruebas2/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/walterbishop2019/Pruebas2/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">julck</summary>
+		<description lang="en">julck</description>
+		<genre></genre>
+	</extension>
+</addon>
+</addons>
